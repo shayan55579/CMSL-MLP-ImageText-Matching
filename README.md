@@ -1,4 +1,8 @@
-# Cross-Modal Space Learning with MLP Aggregation for Image-Text Matching 🔗🖼️📝
+# CMSL-MLP-ImageText-Matching 🔗🖼️📝
+This paper represents the collaborative efforts of researchers from **Jahrom University** and **Université d’Angers**. We extend our sincere gratitude to both institutions for their invaluable support and contributions to this work.
+
+Published in **The Visual Computer** journal with DOI: [DOI Link]
+
 
 ![Idea](Images/idea.png)
 
@@ -54,6 +58,11 @@ This repository contains the implementation of our approach, including datasets,
   
 - **`CodeForAll.ipynb`**: Combines all the components from the previous files into one unified script to test the final results. It provides an easy way to run the entire pipeline and evaluate its performance.
 
+### 📂 **Datasets**
+- Contains the image and text data used for training. The **image** data is stored as tensors, and the **text** data includes captions and annotations for the images.
+
+### ⚙️ **Weights**
+- Contains the trained model weights, saved as `.npy` files, which are used to evaluate and fine-tune the model after training.
 ---
 
 ## 🚀 Getting Started
